@@ -30,5 +30,7 @@ services:
             - MYSQL_PASSWORD=lincoln
             - MYSQL_ROOT_PASSWORD=rootpass
             - MYSQL_DATABASE=lincoln
+        networks:
+            - lincoln
 networks:
     lincoln:
